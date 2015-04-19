@@ -1,0 +1,45 @@
+html {
+background: url('../images/cook.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	text-align:center;
+}
+
+.introduction{
+	color: white;
+	margin-top: 3.5rem;
+}
+
+.white-box{
+	background: #F0F0F0;
+	height: 17.5rem;
+}
+
+button{
+background-color: #C0C0C0;
+border-radius: 20px;
+color:#fff;
+margin: 15px auto;
+}
+
+button:hover{
+	background-color: #505050;
+}
+
+.dashed{
+	background-color:transparent;
+	color:#575757;
+	border: 2px solid #575757;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-right-style: solid;
+	border-left-style:solid;
+	border-radius:50px;
+	display: inline-block;
+	padding: 10px;
+}
