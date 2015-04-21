@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,13 +14,18 @@
 </section>
 <section>
 	<div class="white-box">
-	<div class="buttons">
-	<button>Reset List</button></div>
-	<p class="dashed">Enter each item in the textbox below, then press enter</p>
-<div>
-	<input id="add-items" type="text" placeholder="+ Add items" autocomplete="off" name="add-items">
-	</input>
-	</div>
+			<button id="reset-button">Reset List</button>
+			<br/>
+			<p class="dashed">Add each item in the textbox below</p>
+		<div>
+			<form>
+			<input id="add-items" type="text" name="add-items" autocomplete="off" placeholder="+ Add items" >
+			</form>
+			<button id="add-button">Add!</button>
+			<div> 
+				<ul id="list-area" style="list-style-type:none"></ul>
+			</div>
+		</div>
 	</div>
 </section>
 	

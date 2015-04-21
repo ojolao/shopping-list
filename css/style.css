@@ -17,14 +17,14 @@ body{
 
 .white-box{
 	background: #F0F0F0;
-	height: 17.5rem;
 }
 
 button{
-background-color: #C0C0C0;
+background-color: #808080;
 border-radius: 20px;
 color:#fff;
 margin: 15px auto;
+display: inline-block;
 }
 
 button:hover{
@@ -43,3 +43,15 @@ button:hover{
 	display: inline-block;
 	padding: 10px;
 }
+
+form{
+	display: inline-block;
+}
+
+#list-area{
+	font-size: 14px;
+	font-family: Arial, Serif;
+}
+
+
+
